@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<!-- 18th June 2024 -->
+
+<body>
+  <div class="container">
+    <!-- navbar starts -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-5">
+      <a class="navbar-brand" href="index.html">Leslie Paul Ajayi</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a id="github" class="nav-link" href="https://github.com/Leslie-23"><svg xmlns="http://www.w3.org/2000/svg"
+                width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+              </svg></a>
+          </li>
+          <li class="nav-item">
+            <a id="linkedin" class="nav-link" href="https://www.linkedin.com/in/elton-morden-9a7bb5261/"><svg
+                xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+              </svg></a>
+          </li>
+          <li class="nav-item">
+            <a id="instagram" class="nav-link" href="https://www.instagram.com/i_am.leslie/">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+              </svg></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- navbar ends -->
+
+    <!-- Name, role, resume -->
+    <section class="row align-items-center mb-4">
+      <div class="col-md-7 col-sm-12 text-center" id="personal-details">
+        Leslie Paul
+        <p class="role">Software Engineer</p>
+      </div>
+
+      <div class="col-md-5 col-sm-12 text-center">
+        Passionate problem-solver with a love for innovation <br />
+        <button class="btn btn-secondary col-sm-5 mt-3 bg-dark text-white">
+          Download Resume
+        </button>
+      </div>
+    </section>
+    <!-- name, role, resume ends -->
+
+    <!-- broad image -->
+    <section class="row pb-5">
+      <div class="col-md-12 col-sm-12 text-center">
+        <!-- <img id="main" class="img-fluid rounded" src="luca-bravo-XJXWbfSo2f0-unsplash.jpg" alt="programmer" /> -->
+        <img id="main" class="img-fluid les-img rounded" src="designImg.avif" alt="programmer" />
+      </div>
+    </section>
+    <!-- broad image ends -->
+
+    <!-- about me section -->
+    <p class="header1 mt-5 col-sm-12 text-center hidden1">About Me</p>
+    <hr style="border-color: #fff" />
+    <section class="row align-items-center mb-5">
+      <div class="col-md-6 col-sm-12 text-center">
+        <p class="number-value">90<sup>+</sup></p>
+        <div class="col-md-8 col-sm-12 text-center">
+          <p class="inline-paragraph">
+            <b>Projects</b> <br />
+            Delivering projects on time always.
+          </p>
+        </div>
+
+        <hr style="border-color: #565353" />
+        <p class="number-value">85<sup>%</sup></p>
+        <div class="col-md-8 col-sm-12 text-center">
+          <p class="inline-paragraph">
+            <b>Client satisfaction</b> <br />Worked on diverse tech projects
+            worldwide
+          </p>
+        </div>
+      </div>
+      <div id="about-me" class="col-md-6 col-sm-12 mt-sm-2 text-center">
+        <p class="lead">
+          Leslie Paul is a seasoned tech consultant known for delivering
+          innovative solutions across the globe. Specializing in full-stack
+          development, user experience design, and data-driven decision
+          making, Paul brings valuable expertise to any project. Passionate
+          about creating seamless user interactions and integrating
+          cutting-edge technology, he ensures optimal performance and user
+          satisfaction.
+          <hr> Paul tends to work great in teams and is very goal oriented
+        </p>
+      </div>
+    </section>
+    <!-- about me section ends -->
+
+    <!-- skills and expertise section -->
+    <p class="header1 mt-5 col-sm-12 text-center hidden1">
+      Skills & Expertise
+    </p>
+    <hr style="border-color: #fff" />
+    <section class="row align-items-center">
+      <div class="col-md-6 p-3 col-sm-12 text-center">
+        <span>
+          <p class="skills-header hidden2">User Experience Design</p>
+          <p class="skills-paragraph hidden">
+            Proficient in designing user-friendly interfaces that enhance
+            customer engagement and satisfaction
+          </p>
+        </span>
+        <hr style="border-color: #565353" />
+      </div>
+      <div class="col-md-6 col-sm-12 text-center">
+        <span>
+          <p class="skills-header hidden2">Data Processing Workflows</p>
+          <p class="skills-paragraph hidden">Machine Learning Algorithms</p>
+        </span>
+        <hr style="border-color: #565353" />
+      </div>
+    </section>
+    <section class="row align-items-center mb-3">
+      <div class="col-md-6 col-sm-12 text-center">
+        <span>
+          <p class="skills-header hidden2">Backend Services Integration</p>
+          <p class="skills-paragraph hidden">
+            Expert at integrating backend services with interactive front-end
+            functionalities
+          </p>
+        </span>
+        <hr style="border-color: #565353" />
+      </div>
+      <div class="col-md-6 col-sm-12 text-center">
+        <span>
+          <p class="skills-header hidden2">Seamless API integration</p>
+          <p class="skills-paragraph hidden">Tech Stack Optimization</p>
+        </span>
+        <hr style="border-color: #565353" />
+      </div>
+    </section>
+
+    <section class="row align-items-center mb-5">
+      <div class="col-md-6 col-sm-12 text-center">
+        <span>
+          <p class="skills-header hidden2">Data-Driven Decision Making</p>
+          <p class="skills-paragraph hidden">
+            Utilized advanced algorithms for machine learning to improve data
+            accuracy
+          </p>
+        </span>
+        <hr style="border-color: #565353" />
+      </div>
+      <div class="col-md-6 col-sm-12 text-center">
+        <span>
+          <p class="skills-header hidden2">System Performance Enhancement</p>
+          <p class="skills-paragraph hidden">
+            Adept at troubleshooting and resolving system issues for
+            minimizing downtime
+          </p>
+        </span>
+        <hr style="border-color: #565353" />
+      </div>
+    </section>
+    <!-- expertise section ends -->
+
+    <!-- skills -->
+    <section class="row align-items-center mt-5 text-center skills-header">
+      <div class="col-md-12">
+        <p class="hidden1">Languages</p>
+        <span class="hidden">
+          <img class="langs"
+            src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+          <img class="langs" src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+            alt="" />
+          <img class="langs"
+            src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
+            alt="" />
+          <img class="langs"
+            src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="" />
+          <img class="langs"
+            src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="" />
+          <img class="langs"
+            src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="" />
+        </span>
+      </div>
+
+      <div class="col-md-12 mt-5">
+        <p class="hidden1">Designing</p>
+        <span class="hidden">
+          <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"
+            alt="" />
+        </span>
+        <span class="hidden">
+          <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+"
+            alt="" />
+        </span>
+        <!-- <span class="hidden">
+          <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=black"
+            alt="" />
+        </span> -->
+      </div>
+      <div class="col-md-12 mt-5">
+        <p class="hidden1">Frameworks</p>
+        <span class="hidden">
+          <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
+            alt="" />
+        </span>
+        <span class="hidden">
+          <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"
+            alt="" />
+        </span>
+        <!-- <span class="hidden">
+          <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"
+            alt="" />
+        </span> -->
+      </div>
+
+      <div class="col-md-12 mt-5">
+        <p class="hidden1">Frameworks</p>
+        <span class="hidden">
+          <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"
+            alt="" />
+        </span>
+        <span class="hidden">
+          <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white"
+            alt="" />
+        </span>
+        <span class="hidden">
+          <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
+            alt="" />
+        </span> 
+        <span class="hidden">
+          <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"
+            alt="" />
+        </span> 
+      </div>
+
+      <div class="col-md-12 mt-5 mb-5">
+        <p class="hidden1">Version Control Systems</p>
+        <span class="hidden">
+          <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+          <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
+            alt="Github" />
+        </span>
+      </div>
+    </section>
+    <!-- skills and expertise section ends -->
+  </div>
+  <hr style="border-color: #565353" />
+
+  <!-- recommendation begins -->
+  <div class="container">
+    <section class="row align-items-center">
+      <div class="col-md-3 mt-5 mb-5 p-5 ml-3 text-center">
+        <img id="photograph" class="img-fluid" src="../../profile.jpg" alt="image" />
+      </div>
+      <div class="row hidden1">
+        <div class="col-md-10 col-sm-12 text-center">
+          <p class="quotes">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-quote"
+              viewBox="0 0 16 16">
+              <path
+                d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
+            </svg>
+          </p>
+          <p class="recommendation">
+            Leslie is a game-changer. Highly recommended! <br> Tested, Approved and Trusted
+          </p>
+          <p class="name">Leslie Paul Ajayi</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- recommendation ends -->
+
+  <hr style="border-color: #3b3737" />
+
+  <div class="container">
+    <!-- work experience section begins -->
+    <p class="header1 mt-5 col-sm-12 text-center hidden1">Work experience</p>
+    <hr style="border-color: #fff" />
+    <section class="row align-items-center hidden3">
+      <div class="col-md-3 col-sm-12 text-center">
+        <p class="date">January 2023 - present</p>
+      </div>
+
+      <div class="col-md-4 col-sm-12 text-center">
+        I.T Student
+        <p class="in-work-paragraph">Regional Maritime University</p>
+      </div>
+
+      <div class="col-md-5 col-sm-12 text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In, quos
+        esse. Inventore enim temporibus id facere sapiente, obcaecati
+        provident in voluptatum voluptatibus, delectus repudiandae sunt
+        reiciendis, rerum laboriosam explicabo illo.
+      </div>
+    </section>
+    <hr style="border-color: #565353" />
+    <section class="row align-items-center mb-5 hidden">
+      <span class="col-md-3 col-sm-12 text-center">
+        <p class="date">February 2024 - present</p>
+      </span>
+
+      <span class="col-md-4 col-sm-12 text-center">
+        Software Engineer
+        <p class="in-work-paragraph">Ironsyde.co</p>
+      </span>
+
+      <span class="col-md-5 col-sm-12 text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In, quos
+        esse. Inventore enim temporibus id facere sapiente, obcaecati
+        provident in voluptatum voluptatibus, delectus repudiandae sunt
+        reiciendis, rerum laboriosam explicabo illo.
+      </span>
+    </section>
+    <hr style="border-color: #565353" />
+    <section class="row hidden3">
+      <div id="image-background" class="col-md-12 p-5 my-5">
+        <div class="col-md-6 col-sm-12 text-center">
+          <p class="recommendation">Why Choose Elton Morden?</p>
+          <br />
+          <br />
+          <p>
+            Leslie Paul is dedicated to innovative solutions. Years of
+            experience across global projects underline expertise in
+            delivering timely, outstanding results.
+          </p>
+        </div>
+
+        <button class="btn btn-secondary bg-dark text-white col-sm-6 p-2 ml-3 text-center">
+          Download my resume
+        </button>
+      </div>
+    </section>
+    <!-- work experience section ends -->
+
+    <!-- education section begins -->
+    <p class="header1 mt-5 col-sm-12 text-center hidden1">Education</p>
+    <hr style="border-color: #fff" />
+    <section class="row align-items-center hidden">
+      <span class="col-md-6 col-sm-12 text-center">
+        <p>
+          Murraydeen Preparatory School, Freetown-Sierra Leone <br />
+          Jan 2007 - June 2013
+        </p>
+      </span>
+      <span class="col-md-6 col-sm-12 text-center">
+        <p>
+          Basic and Junior High School Education <br />
+          Certification: Basic Education Certificate Examination
+        </p>
+      </span>
+    </section>
+    <hr style="border-color: #565353" />
+    <section class="row align-items-center hidden3">
+      <div class="col-md-6 col-sm-12 text-center">
+        <p>
+          Gaborone West International School, Accra-Ghana <br />
+          Jan 2014 - June 2017
+        </p>
+      </div>
+      <div class="col-md-6 col-sm-12 text-center">
+        <p>
+          Senior High School Education <br />
+          Certification: West African Secondary School Certificate
+          Examinations
+        </p>
+      </div>
+    </section>
+    <hr style="border-color: #565353" />
+    <section class="row align-items-center hidden">
+      <span class="col-md-6 col-sm-12 text-center">
+        <p>
+          Regional Maritime University <br />
+          Jan 2023 - present
+        </p>
+      </span>
+      <span class="col-md-6 col-sm-12 text-center">
+        <p>Bachelor of Science in Information Technology</p>
+      </span>
+    </section>
+    <hr style="border-color: #565353" />
+    <section class="row align-items-center hidden3">
+      <span class="col-md-6 col-sm-12 text-center">
+        <p>
+          Udemy <br />
+          May 2024 - present
+        </p>
+      </span>
+      <span class="col-md-6 mb 5 col-sm-12 text-center">
+        <p>The Web Developer Bootcamp 2024</p>
+      </span>
+      <span class="col-md-6 col-sm-12 text-center">
+        <p>
+          tutorialsPoint <br />
+          May 2024 - present
+        </p>
+      </span>
+      <span class="col-md-6 mb 5 col-sm-12 text-center">
+        <p>The Web Developer Advanced Certification 2024</p>
+      </span>
+    </section>
+    <!-- education section ends -->
+
+    <!-- footer begins -->
+    <footer>
+      <hr style="border-color: #fff" />
+      <p class="header1 col-sm-12 text-center hidden1">Get in touch</p>
+      <div class="row align-items-center hidden3">
+        <div id="contact1" class="col-md-3 p-4 col-sm-12 m-sm-0 text-center">
+          <p>
+            <a
+              href="https://www.google.com/maps/place/The+Methodist+Church+Of+Ghana/@5.715468,0.1054122,17.15z/data=!4m6!3m5!1s0x10207d9eae1af8ad:0x1366ed290a2c1032!8m2!3d5.7135521!4d0.1077313!16s%2Fg%2F11fz95lcg9?entry=ttu"><svg
+                xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-geo-alt mt-3"
+                viewBox="0 0 16 16">
+                <path
+                  d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+              </svg></a>
+          </p>
+
+          GN-0000-9967 <br />
+          8 Osram Avenue<br />
+          Spintex-Tema, Ghana
+        </div>
+
+        <div id="contact2" class="col-md-3 mb-5 py-5 col-sm-12 m-sm-0 text-center">
+          <p>
+            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                class="bi bi-envelope mt-3" viewBox="0 0 16 16">
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+              </svg></a>
+          </p>
+          <p>leslieajayi27@gmail.com</p>
+        </div>
+
+        <!-- <div id="contact3" class="col-md-3 ">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro distinctio impedit ex repudiandae neque suscipit consectetur voluptatem est quod perferendis atque laborum dolorum fugit, explicabo inventore modi aliquam dignissimos mollitia?
+          </p>
+        </div> -->
+      </div>
+    </footer>
+
+    <div class="row">
+      <div class="col text-center mt-3">
+        <p>&copy; Leslie Paul Ajayi</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
